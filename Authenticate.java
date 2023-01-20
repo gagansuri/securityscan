@@ -8,7 +8,7 @@ public class Authenticate {
   
   
   public boolean validate () {
-    return PWD.equals("MIND YOUR OWN BUSINESS");
+    System.out.println(PASSWORD);
   }
 
 }
