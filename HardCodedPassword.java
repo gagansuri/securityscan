@@ -10,7 +10,7 @@ public class HardCodedPassword {
     }
 
     public boolean authenticate(String user,String password) {
-        return user.equals("gagan") && user.equals("atom");
+        return user.equals("gagan") && password.equals("atom");
 
     }
 
