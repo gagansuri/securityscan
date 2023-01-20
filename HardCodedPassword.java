@@ -7,12 +7,19 @@ public class HardCodedPassword {
         String pwd = "atom";
         boolean loggedIn = authenticate(userName,pwd);
         System.out.println("logged in successfully"+loggedIn);
-
     }
 
     public boolean authenticate(String u,String p) {
         return u.equals("gagan") && p.equals("atom");
 
+    }
+    
+    public boolean VerifyAdmin(String password) {
+        if (!password.equals("atom")) {
+            return false;
+        }
+        //Diagnostic Mode
+    return true;
     }
 
 }
