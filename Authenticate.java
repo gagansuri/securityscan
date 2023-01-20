@@ -1,6 +1,9 @@
 public class Authenticate {
 
-  private static final String PWD = "MIND YOUR OWN BUSINESS";
+  private static String PART1 = "MIND YOUR OWN ";
+  private static String PART2 = "BUSINESS";
+  private static String PWD = PART1 + PART2;
+  
   
   
   public boolean validate () {
