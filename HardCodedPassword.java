@@ -5,7 +5,7 @@ public class HardCodedPassword {
     public void login() {
         String userName = "gagan";
         String pwd = "atom";
-        boolean loggedIn = authenticate(userName,password);
+        boolean loggedIn = authenticate(userName,pwd);
         System.out.println("logged in successfully"+loggedIn);
 
     }
