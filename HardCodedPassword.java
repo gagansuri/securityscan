@@ -9,17 +9,9 @@ public class HardCodedPassword {
         System.out.println("logged in successfully"+loggedIn);
     }
 
-    public boolean authenticate(String u,String p) {
-        return u.equals("gagan") && p.equals("atom");
+    public boolean authenticate(String user,String password) {
+        return user.equals("gagan") && user.equals("atom");
 
-    }
-    
-    public boolean VerifyAdmin(String password) {
-        if (!password.equals("atom")) {
-            return false;
-        }
-        //Diagnostic Mode
-    return true;
     }
 
 }
